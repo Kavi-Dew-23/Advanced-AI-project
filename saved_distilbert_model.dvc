@@ -1,0 +1,6 @@
+outs:
+- md5: a53cecd2d3bc7eea7968583694b7575d.dir
+  size: 268102358
+  nfiles: 6
+  hash: md5
+  path: saved_distilbert_model
