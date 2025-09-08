@@ -6,4 +6,3 @@ stages:
       - dataset/train.csv
     outs:
       - saved_distilbert_model
-      - results

@@ -1,0 +1,19 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python train.py
+    deps:
+    - path: dataset/train.csv
+      hash: md5
+      md5: d19e97608051335b21876964e5fbad26
+      size: 12193089
+    - path: train.py
+      hash: md5
+      md5: ca13580b65d2cab1f28eb5ba2860b727
+      size: 1501
+    outs:
+    - path: saved_distilbert_model
+      hash: md5
+      md5: a53cecd2d3bc7eea7968583694b7575d.dir
+      size: 268102358
+      nfiles: 6
